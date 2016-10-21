@@ -4,10 +4,8 @@
  * and open the template in the editor.
  */
 import myutils.MyUtils;
-import static myutils.MyUtils.cadenaInvertida;
 import org.junit.After;
 import org.junit.AfterClass;
-import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
