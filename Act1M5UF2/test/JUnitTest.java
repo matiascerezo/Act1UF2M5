@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 import myutils.MyUtils;
 import org.junit.After;
 import org.junit.AfterClass;
@@ -11,11 +7,6 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-
-/**
- *
- * @author ALUMNEDAM
- */
 public class Act1UF2M5 {
     
     public Act1UF2M5() {
@@ -55,7 +46,7 @@ public class Act1UF2M5 {
         @Test
         public final void testInvertirCadenanull () throws Errores {
 
-        assertEquals("null", MyUtils.cadenaInvertida(null));
+        assertEquals(null, MyUtils.cadenaInvertida(null));
     
     }
         @Test
