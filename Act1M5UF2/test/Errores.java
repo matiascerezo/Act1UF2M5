@@ -11,6 +11,6 @@
 public class Errores extends Exception{
     
         public Errores() {
-        super("¡Error!");
+        super("¡Error! Los datos introducidos no son válidos.");
     }
 }
