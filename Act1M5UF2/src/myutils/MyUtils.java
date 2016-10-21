@@ -1,16 +1,9 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package myutils;
 
 import java.util.Calendar;
 import java.util.TimeZone;
 
-/**
- *
- * @author Lluis Classe de funcions pròpies utils.
- */
 public class MyUtils {
 
     /**
