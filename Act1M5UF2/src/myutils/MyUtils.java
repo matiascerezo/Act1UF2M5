@@ -1,8 +1,6 @@
-
 package myutils;
 
 import java.util.Calendar;
-import java.util.TimeZone;
 
 public class MyUtils {
 
@@ -14,9 +12,9 @@ public class MyUtils {
     public static String cadenaInvertida(String cadena) {
         String cadenaInvertida = "";
 
-        if (cadena == "null") {
+        if (cadena == null) {
             System.out.println(cadena);
-        } else if (!(cadena == "")) {
+        } else if (!cadena.equals("")) {
             for (int i = cadena.length() - 1; i >= 0; i--) {
                 cadenaInvertida += cadena.charAt(i);
             }
@@ -51,7 +49,7 @@ public class MyUtils {
             edad = -1;
         }
 
-        return edad;
+        return edad ;
     }
 
     /**
@@ -62,13 +60,16 @@ public class MyUtils {
      */
     public static int factorial(int numero) {
 
+        int resultat;
+        
         if (numero == 0) {
             return 1;
         } else if (numero < 0) {
             return -1;
         } else {
-             int resultat = numero * factorial(numero - 1);
-            return resultat;
+            resultat = numero * factorial(numero - 1);
+            
         }
+        return resultat;
     }
 }
